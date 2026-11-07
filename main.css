@@ -645,12 +645,13 @@
         width: 545px;
         gap: 10px;
         overflow: hidden;
-        border-radius: 8px;
+       
     }
 
     .banquet-photo-wrapper img {
         width: 100%;
         height: 240px;
+        border-radius: 8px;
         object-fit: cover;
     }
 
@@ -968,6 +969,10 @@
         .tell-btn {
             padding: 0.6rem 1rem;
             font-size: 0.9rem;
+        }
+
+        .hero-btn {
+            font-size: 0.8rem;
         }
 
        .about-features {
